@@ -1,17 +1,18 @@
-.home-container{
+.home-container {
     width: 100%;
     display: flex;
     flex-direction: column;
     align-items: center;
 }
-.home-banner{
+
+.home-banner {
     height: auto;
     min-height: 400px;
     width: 100%;
-    background-image: url(../../assets/images/banner-1.jpg);
+    /* background-image: url(../../assets/images/banner-1.jpg);
     background-repeat: no-repeat;
+    background-size: cover; */
     background-position: center;
-    background-size: cover;
 }
 
 .home-text {
@@ -26,8 +27,8 @@
     padding: 20px;
 }
 
-.home-text .images {    
-    padding-left: 5%;    
+.home-text .images {
+    padding-left: 5%;
 }
 
 .home-text .images img {
@@ -39,7 +40,7 @@ h1 {
     font-family: "Herr Von Muellerhoff", Sans-serif;
     font-size: 58px;
     font-weight: 400;
-    line-height: 58px; 
+    line-height: 58px;
 }
 
 p {
@@ -51,13 +52,14 @@ p {
     margin-block-end: 1em;
     margin-inline-start: 0px;
     margin-inline-end: 0px;
-    text-align:justify ;
+    text-align: justify;
     line-height: 2;
 }
 
-.element-text {    
+.element-text {
     font-family: "opensans";
 }
+
 /* 
 .home-banner::before{
     content: "";
@@ -71,3 +73,25 @@ p {
     bottom: 0px;
     left: 0px;
 } */
+
+.gallery-cell {
+    width: 100%;
+    min-height: 400px;
+    height: 100%;
+    margin-right: 10px;
+    counter-increment: gallery-cell;
+}
+
+/* cell number */
+.gallery-cell:before {
+    display: block;
+    text-align: center;
+    content: "";
+    line-height: 200px;
+    font-size: 80px;
+}
+
+.image2 {
+    top: -350px;
+    position: relative;
+}
