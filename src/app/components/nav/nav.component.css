@@ -31,9 +31,10 @@ nav > ul > li > a {
     text-decoration: none;
 }
 
+.active-link,
 nav > ul > li > a:hover {
-    color: var(--nav-text-second-color);
-    text-decoration: underline;
+    color: var(--nav-text-second-color) !important;
+    text-decoration: underline !important;
 }
 
 .logo{
