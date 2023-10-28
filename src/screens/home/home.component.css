@@ -91,7 +91,7 @@ p {
     font-size: 80px;
 }
 
-.image2 {
-    top: -350px;
+.image2 {    
+    height: 400px;
     position: relative;
 }
